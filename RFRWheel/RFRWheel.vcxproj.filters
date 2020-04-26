@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{079a54c0-ee25-42f9-93f4-115f7bc8553c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="debug.ino">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ffb.ino">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ffb_pro.ino">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Config.ino">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="QuadEncoder.ino">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="pwm.ino">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="SerialInterface.ino">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Inputs.ino">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="RFRWheel.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ffb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ffb_pro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Arduino\arduino-1.0.5\hardware\arduino\cores\arduino_gs\USBDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Visual Micro\.RFRWheel.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\Arduino\arduino-1.0.5\hardware\arduino\cores\arduino_gs\HID.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Arduino\arduino-1.0.5\hardware\arduino\cores\arduino_gs\USBCore.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
