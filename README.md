@@ -32,5 +32,6 @@ By sending commands to the serial port you can configure the wheel.
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
-I don't own the rights of this software. The Distribution is allowed in the license
+# I don't own the rights of this software. The Distribution is allowed in the license.
+
 Source code found on may of 2017 at http://www.aiwave.fr/wc_updates/
