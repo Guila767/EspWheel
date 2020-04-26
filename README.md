@@ -30,5 +30,7 @@ By sending commands to the serial port you can configure the wheel.
 
 - on the yourduino HX711 shield, in order to have 80 SPS instead of 10 SPS you must unsolder the #15 pin (RATE) of the chip which is grounded, and connect it to +5V (pin 16).
 
+------------------------------------------------------------------------------------------------------------------------------------
 
-
+I don't own the rights of this software. The Distribution is allowed in the license
+Source code found on may of 2017 at http://www.aiwave.fr/wc_updates/
